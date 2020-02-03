@@ -1,11 +1,16 @@
 public void setup()
 {
+ 
 size(1200,1200);
 background(0); 
 }
 public void draw()
 {
-sier(350,200,1000);
+   int a =1000;
+  textSize(50);
+ text("S I E R P I N S K I  T R I A N G L E",250,150);
+sier(350,200,a);
+a-=10;
 //sierpinski(350,100,100);
 }
 public void mouseDragged()//optional
